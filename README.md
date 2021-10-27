@@ -1,11 +1,10 @@
-# Astro + React Example
+# Astro + React + Yarn PnP
 
+Run `yarn install` then `yarn dev`
+
+Doesn't currently work. It starts, but throws an error when navigating to the dev server:
 ```
-npm init astro -- --template framework-react
+Failed to load "node-fetch"!
+ESM format is not natively supported in "node@v16.9.0".
+Please use CommonJS or upgrade to an LTS version of node above "node@12.17.0".
 ```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/snowpackjs/astro/tree/latest/examples/framework-react)
-
-This example showcases Astro working with [React](https://reactjs.org/).
-
-Write your React components as `.jsx` or `.tsx` files in your project.
